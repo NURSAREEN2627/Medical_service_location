@@ -13,35 +13,30 @@ body{
   padding:15px;
 }
 
-/* หัวข้อ */
 h2{
   text-align:center;
   font-size:22px;
 }
 
-/* container */
 .container{
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
   gap:15px;
-  max-width:1000px;
+  max-width:1100px;
   margin:auto;
 }
 
-/* การ์ด */
 .card{
   background:white;
   padding:15px;
   border-radius:12px;
   box-shadow:0 2px 6px rgba(0,0,0,0.1);
-  transition:0.2s;
 }
 
-.card:hover{
-  transform:translateY(-3px);
+.card h3{
+  font-size:16px;
 }
 
-/* ปุ่ม */
 .btn{
   display:block;
   margin-top:10px;
@@ -51,25 +46,9 @@ h2{
   border-radius:8px;
   text-align:center;
   text-decoration:none;
-  font-size:16px;
 }
 
-.btn:active{
-  background:#1d4ed8;
-}
-
-/* มือถือ */
-@media(max-width:480px){
-  h2{
-    font-size:20px;
-  }
-  .btn{
-    font-size:14px;
-    padding:8px;
-  }
-}
 </style>
-
 </head>
 
 <body>
@@ -79,57 +58,51 @@ h2{
 <div class="container">
 
   <div class="card">
-    <h3>รพ.สต.สุไหงโกลก</h3>
+    <h3>โรงพยาบาลส่งเสริมสุขภาพตำบลมูโนะ</h3>
     <p>เวลา: 08.30 - 16.30 น.</p>
     <a class="btn" target="_blank"
-      href="https://www.google.com/maps?q=รพ.สต.สุไหงโกลก">
-      📍 ดูแผนที่
-    </a>
+    href="https://www.google.com/maps?q=โรงพยาบาลส่งเสริมสุขภาพตำบลมูโนะ">
+    📍 ดูแผนที่</a>
   </div>
 
   <div class="card">
-    <h3>รพ.สต.มูโนะ</h3>
+    <h3>โรงพยาบาลส่งเสริมสุขภาพตำบลปูโยะ</h3>
     <p>เวลา: 08.30 - 16.30 น.</p>
     <a class="btn" target="_blank"
-      href="https://www.google.com/maps?q=รพ.สต.มูโนะ">
-      📍 ดูแผนที่
-    </a>
+    href="https://www.google.com/maps?q=โรงพยาบาลส่งเสริมสุขภาพตำบลปูโยะ">
+    📍 ดูแผนที่</a>
   </div>
 
   <div class="card">
-    <h3>รพ.สต.ปาเสมัส</h3>
+    <h3>โรงพยาบาลส่งเสริมสุขภาพตำบลปาเสมัส</h3>
     <p>เวลา: 08.30 - 16.30 น.</p>
     <a class="btn" target="_blank"
-      href="https://www.google.com/maps?q=รพ.สต.ปาเสมัส">
-      📍 ดูแผนที่
-    </a>
+    href="https://www.google.com/maps?q=โรงพยาบาลส่งเสริมสุขภาพตำบลปาเสมัส">
+    📍 ดูแผนที่</a>
   </div>
 
   <div class="card">
-    <h3>รพ.สต.ปูโยะ</h3>
+    <h3>โรงพยาบาลส่งเสริมสุขภาพตำบลบ้านกวาลอซีรา (ตำบลปาเสมัส)</h3>
     <p>เวลา: 08.30 - 16.30 น.</p>
     <a class="btn" target="_blank"
-      href="https://www.google.com/maps?q=รพ.สต.ปูโยะ">
-      📍 ดูแผนที่
-    </a>
+    href="https://www.google.com/maps?q=บ้านกวาลอซีรา ปาเสมัส">
+    📍 ดูแผนที่</a>
   </div>
 
   <div class="card">
-    <h3>ศูนย์ใกล้ใจ 1</h3>
+    <h3>ศูนย์แพทย์ใกล้ใจ 1 (เทศบาล) โรงพยาบาลสุไหงโก-ลก</h3>
     <p>เวลา: 08.30 - 16.30 น.</p>
     <a class="btn" target="_blank"
-      href="https://www.google.com/maps?q=ศูนย์ใกล้ใจ 1">
-      📍 ดูแผนที่
-    </a>
+    href="https://www.google.com/maps?q=โรงพยาบาลสุไหงโก-ลก">
+    📍 ดูแผนที่</a>
   </div>
 
   <div class="card">
-    <h3>ศูนย์ใกล้ใจ 2</h3>
+    <h3>ศูนย์แพทย์ใกล้ใจ 2 (เจริญเขต) โรงพยาบาลสุไหงโก-ลก</h3>
     <p>เวลา: 08.30 - 16.30 น.</p>
     <a class="btn" target="_blank"
-      href="https://www.google.com/maps?q=ศูนย์ใกล้ใจ 2">
-      📍 ดูแผนที่
-    </a>
+    href="https://www.google.com/maps?q=เจริญเขต สุไหงโก-ลก">
+    📍 ดูแผนที่</a>
   </div>
 
 </div>
