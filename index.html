@@ -2,37 +2,71 @@
 <html lang="th">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>จุดบริการวัคซีนเด็ก</title>
 
 <style>
 body{
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   background:#f3f4f6;
   margin:0;
-  padding:20px;
+  padding:15px;
 }
+
+/* หัวข้อ */
 h2{
   text-align:center;
+  font-size:22px;
 }
+
+/* container */
 .container{
-  max-width:800px;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap:15px;
+  max-width:1000px;
   margin:auto;
 }
+
+/* การ์ด */
 .card{
   background:white;
   padding:15px;
-  margin:10px 0;
-  border-radius:10px;
-  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+  border-radius:12px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+  transition:0.2s;
 }
+
+.card:hover{
+  transform:translateY(-3px);
+}
+
+/* ปุ่ม */
 .btn{
-  display:inline-block;
+  display:block;
   margin-top:10px;
-  padding:8px 12px;
+  padding:10px;
   background:#2563eb;
   color:white;
-  border-radius:6px;
+  border-radius:8px;
+  text-align:center;
   text-decoration:none;
+  font-size:16px;
+}
+
+.btn:active{
+  background:#1d4ed8;
+}
+
+/* มือถือ */
+@media(max-width:480px){
+  h2{
+    font-size:20px;
+  }
+  .btn{
+    font-size:14px;
+    padding:8px;
+  }
 }
 </style>
 
